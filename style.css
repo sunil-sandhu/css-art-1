@@ -1,0 +1,108 @@
+html, body {
+    background-color: #e5a968;
+}
+
+#canvas {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 50px;
+}
+
+
+
+.square {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  transition: all;
+  float: left;
+}
+
+
+.top1,
+.left1,
+.right1,
+.bottom1 {
+  position: absolute;
+  height: calc(100% / 1.414);
+  width: calc(100% / 1.414);
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 0%;
+  background-color: #000000;
+  border: 20px solid #000000;
+}
+
+.top2,
+.left2,
+.right2,
+.bottom2 {
+  position: absolute;
+  height: calc(100% / 1.414);
+  width: calc(100% / 1.414);
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 0%;
+}
+
+.top3,
+.left3,
+.right3,
+.bottom3 {
+  position: absolute;
+  height: calc(100% / 1.414);
+  width: calc(100% / 1.414);
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 0%;
+}
+
+.top4,
+.left4,
+.right4,
+.bottom4 {
+  position: absolute;
+  height: calc(100% / 1.414);
+  width: calc(100% / 1.414);
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 0%;
+}
+
+.top5,
+.left5,
+.right5,
+.bottom5 {
+  position: absolute;
+  height: calc(100% / 1.414);
+  width: calc(100% / 1.414);
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 0%;
+}
+
+.right1 {
+    background-color: #000000;
+    border: 20px solid #000000;
+  transform: rotate(-45deg);
+}
+.bottom1 {
+    background-color: #000000;
+    border: 20px solid #000000;
+  transform: rotate(45deg);
+}
+.top1 {
+    background-color: #000000;
+    border: 20px solid #000000;
+  transform: rotate(-135deg);
+}
+.left1 {
+
+  transform: rotate(135deg);
+}
+
